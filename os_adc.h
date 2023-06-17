@@ -1,9 +1,11 @@
 #ifndef OS_ADC_H
-#define OS_ADH_H
+#define OS_ADC_H
+
 #include "stdlib.h"
 #include "stdint.h"
-#include "../LinuxCSAL/CSAL_SHARED/os_error.h"
-typedef struct os_adc_t{
+#include "global_includes.h"
+
+typedef struct os_adc{
     int fd;
     int bus;
     int fifosize;

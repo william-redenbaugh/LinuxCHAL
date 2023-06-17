@@ -1,6 +1,6 @@
 #include "os_i2c.h"
-#include "../LinuxCSAL/CSAL_SHARED/os_error.h"
 
+#include "global_includes.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>

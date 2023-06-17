@@ -1,4 +1,5 @@
 #include "os_adc.h"
+#include "global_includes.h"
 
 os_adc_t adc_one = {
     .bus = 1, 
@@ -48,7 +49,5 @@ int os_adc_read(os_adc_t *adc, void *value){
 }
 
 int os_adc_read_values(os_adc_t *adc, uint32_t size, void *values){
-
-
     return OS_RET_OK;
 }

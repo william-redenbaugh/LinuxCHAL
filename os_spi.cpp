@@ -1,11 +1,10 @@
 #include "os_spi.h"
-#include "../LinuxCSAL/CSAL_SHARED/os_error.h"
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
 #include <sys/ioctl.h>
 #include <errno.h>
+#include "global_includes.h"
 
 os_spi_t spi_zero = {
     .fd = 0, 
