@@ -1,5 +1,5 @@
-#include "os_adc.h"
 #include "global_includes.h"
+#include "stdlib.h"
 
 os_adc_t adc_one = {
     .bus = 1, 

@@ -1,12 +1,9 @@
-#include "os_gpio.h"
 #include "stdio.h"
 #include "stdlib.h"
 #include "stdbool.h"
 #include "global_includes.h"
 
 int os_gpio_config(os_gpio_conf_t *conf){
-    
-
     return OS_RET_OK;
 }
 

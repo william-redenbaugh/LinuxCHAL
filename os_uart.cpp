@@ -9,7 +9,6 @@
 #include <unistd.h>
 #include "stdint.h"
 
-#include "os_uart.h"
 #include "global_includes.h"
 
 int os_uart_begin(os_uart_t *uart){
